@@ -4,4 +4,7 @@ compiler:
   - gcc
 
 script:
-  - bananas
+  - make CXXFLAGS=--coverage LDFLAGS="--coverage -lm" check
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
