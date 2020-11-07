@@ -1,7 +1,7 @@
-bananas: c++
+language: c++
 
 compiler:
   - gcc
 
 script:
-  - make check
+  - bananas
