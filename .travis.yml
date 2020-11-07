@@ -1,4 +1,4 @@
-language: f++
+bananas: c++
 
 compiler:
   - gcc
